@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Play:wght@400;700&display=swap');
+
+:root {
+    --font-family-1: 'Play', sans-serif;
+    --font-family-2:'Nova Square', sans-serif;
+    --bg-color: #164863;
+    --cor-primaria: #DDF2FD;
+    --cor-secundaria: #9BBEC8;
+    --cor-terciaria: #427D9D;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--cor-secundaria);
+    font-family: var(--font-family-1);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    color: var(--cor-primaria);
+    font-family: var(--font-family-2);
+    font-size: 5em;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+.mensagem{
+    font-size: 2em;
+}
+
+.box {
+    border: 2px solid var(--cor-terciaria);
+    padding: 10px;
+    display: inline-block;
+    margin: 15px 0;
+    font-size: 2em;
+}
