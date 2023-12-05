@@ -3,10 +3,16 @@
 :root {
     --font-family-1: 'Play', sans-serif;
     --font-family-2:'Nova Square', sans-serif;
-    --bg-color: #164863;
+    
+    /* --bg-color: #164863;
     --cor-primaria: #DDF2FD;
     --cor-secundaria: #9BBEC8;
-    --cor-terciaria: #427D9D;
+    --cor-terciaria: #427D9D; */
+
+    --bg-color: #5D12D2;
+    --cor-primaria: #FFE5E5;
+    --cor-secundaria: #FF6AC2;
+    --cor-terciaria: #B931FC;
 }
 
 body {
@@ -40,8 +46,9 @@ h3 {
 }
 
 .box {
-    border: 2px solid var(--cor-terciaria);
+    border: 5px solid var(--cor-terciaria);
     padding: 10px;
+    border-radius: 5px;
     display: inline-block;
     margin: 15px 0;
     font-size: 2em;

@@ -12,6 +12,7 @@ function onSpeak (event) {
     chute = (event.results[0][0].transcript).replace(".", '');
     console.log(chute)
     exibirChuteNaTela(chute)
+    verificarSeOChuteEValido(chute)
 }
 
 function exibirChuteNaTela(chute) {
@@ -19,3 +20,5 @@ function exibirChuteNaTela(chute) {
     <div>Você disse: </div>
     <span class = "box">${chute}<span>`
 }
+
+recognition.addEventListener('end', () => recognition.start())
