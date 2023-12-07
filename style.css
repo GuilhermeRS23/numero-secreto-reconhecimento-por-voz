@@ -45,6 +45,11 @@ h3 {
     font-size: 2em;
 }
 
+.mensagem_acertou {
+    font-size: 3.5em;
+    font-family: var(--font-family-2);
+}
+
 .box {
     border: 5px solid var(--cor-terciaria);
     padding: 10px;
@@ -52,4 +57,44 @@ h3 {
     display: inline-block;
     margin: 15px 0;
     font-size: 2em;
+}
+
+.box_venceu {
+    border: 5px solid var(--cor-terciaria);
+    color: var(--cor-primaria);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 15px 0;
+    font-size: 5em;
+}
+
+.acertou{
+    font-size: 5.5em;
+    font-family: var(--font-family-1);
+}
+
+.btn_jogaNovamente {
+    border: 0;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 7px;
+    background-color: var(--cor-primaria);
+    font-size: 2em;
+    color: var(--bg-color);
+    font-family: var(--font-family-1);
+    font-weight: 700;
+}
+
+.btn_jogaNovamente:hover {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+}
+
+.mensagem_alert {
+    font-family: var(--font-family-2);
+    font-size: 1em;
+    padding: 3px;
+    color: var(--cor-primaria);
+    margin-top: 35px;
 }

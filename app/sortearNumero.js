@@ -2,7 +2,7 @@ const elementoMinValor = document.getElementById('min-valor');
 const elementoMaxValor = document.getElementById('max-valor');
 
 let minValor = 1;
-let maxValor = 550;
+let maxValor = 1000;
 const numeroSecreto = gerarNumeroSecreto()
 
 function gerarNumeroSecreto() {
